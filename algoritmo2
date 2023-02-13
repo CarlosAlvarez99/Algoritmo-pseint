@@ -1,0 +1,27 @@
+Algoritmo2
+
+  Escribir "Seleccionar la operacion que quiere realizar"
+  escribir "1.-Calcular el área de un cuadrado"
+  escribir "2.-Calcular eñ área de un triangulo"
+  escribir "3.-Calcular la circunferencia de un circulo"
+  
+  leer menu
+  
+  segun menu hacer
+  
+    1: escribir "Ingrese el tamaño del lado del cuadrado"
+    leer numero1
+    escribir "El área del cuadrado es igual a: " numero1*numero1
+    
+    2.-escribir "ingrese la base y altura de un triangulo"
+    leer base, altura
+    escribir "El área de un triangulo es igual a: " base*altura/2
+    
+    3.-escribir "Ingrese el radio"
+    leer r
+    escribir "la circunferencia es de: " 3.1416*(r*r)
+    De otro modo
+    escribir "ingrese un numero valido"
+    Fin segun
+Findelalgoritmo
+    
