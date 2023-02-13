@@ -1,0 +1,32 @@
+algoritmo3
+
+Definir calificacion como entero 
+definir entrada como cadena
+    Mientras entrada != 'salir' Hacer
+      
+      Escribir "ingresa la calificacion"
+      leer entrada
+      
+      Si entrada != 'salir' entonces
+      
+        calificacion <- ConvertiraNumero(entrada)
+        Si calificacion >= 70 entonces
+        a+ConvertirATexto(calificacion)
+        aprobada+aprobada+'|' +a 
+        escribir aprobadas
+        SiNO
+        r <- ConvertirATexto(calificacion)
+        reprobadas+reprobadas '|'+r
+        escribir reprobadas
+      FinSi
+      
+     SiNo
+     
+      escribir "aprobadas: " aprobadas
+      escribir "reprobadas: " reprobadas
+      
+     FinSi 
+     
+     Fin Mientras
+     
+Fin Algoritmo
