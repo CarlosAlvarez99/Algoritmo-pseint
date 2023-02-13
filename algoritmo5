@@ -1,0 +1,28 @@
+Algoritmo5
+
+    escribir "ingrese una letra"
+    leer vocal
+    Si vocal = "a" entonces
+      escribir vocal = "es una vocal"
+    SiNo
+    
+        Si vocal = "e" entonces
+           escribir vocal = "es una vocal"
+        SiNo
+            Si vocal = "i" entonces
+               escribir vocal = "es una vocal"
+            SiNo
+                Si vocal = "o" entonces
+                   escribir vocal = "es una vocal"
+                SiNo
+                    Si vocal = "u" entonces
+                       escribir vocal = "es una vocal"
+                    SiNo
+                       escribir "no es una vocal"
+                    Fin Si
+               Fin Si
+           Fin Si
+        Fin Si
+     Fin Si
+     Hasta Que vocal =' '
+    FinAlgoritmo
